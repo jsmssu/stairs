@@ -8,6 +8,7 @@ void insertion_sort(int* li, int len, int repeat_N = 0){
 		for (int i = end; i > 0; i = i -1){
 			if (li[i] < li[i-1]) {
 				swap(li[i], li[i-1]);
+				break;
 			}			
 		} 
 
